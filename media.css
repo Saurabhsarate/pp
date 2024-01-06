@@ -1,0 +1,96 @@
+@media screen and (max-width:1400px){
+    #profile{
+        height:83vh;
+        margin-bottom:6rem;
+    }
+    .ab_cont{
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width:1200px){
+    #navi{
+        display:none;
+    }
+    #hamburger_nav{
+        display:flex;
+    }
+    #profile,.sec_cont_ab{
+        display: block;
+    }
+    .arrow{
+        display: none;
+    }
+    section,.sec_cont_ab{
+        height:fit-content
+    }
+    section{
+        margin:0 5%;
+    }
+    .sec_cont_pic_ab{
+        width:275px;
+        height: 275px;
+        margin:0 auto 2rem;
+    }
+    .about{
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width:600px){
+    #contact,footer{
+        height:40vh;
+    }
+    #profile{
+        height:83vh;
+        margin-bottom: 0;
+    }
+    article{
+        font-size: 1rem;
+    }
+    footer nav{
+        height:fit-content;
+        margin-bottom: 2rem;
+    }
+    .ab_conts,.contact_info_cont_up,.btn_cont{
+        flex-wrap: wrap;
+    }
+    .contact_info_cont{
+        margin: 0;
+    }
+    .contact_info_cont p,.navi_link li a{
+        font-size: 1rem;
+    }
+    .e_sub_title{
+        font-size: 1.25rem;
+    }
+    .logo{
+        font-size: 1.5rem;
+    }
+    .navi_link{
+        flex-direction: column;
+        gap:0.5rem;
+        text-align: center;
+    }
+    .sec_pic_container{
+        width:auto;
+        height: 46vw;
+        justify-content: center;
+    }
+    .sec_p1{
+        font-size: 1.25rem;
+    }
+    .title{
+        font-size: 2rem;
+    }
+    .txt_cont{
+        text-align: justify;
+    }
+
+}
+
+@media (max-width:786px){
+    .pop-img img,.abco{
+        width:95%;
+    }
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="media.css"/> 
+</head>
+<body>
+    <nav id="navi">
+        <div class="logo">Saurabh Sarate</div>
+
+        <div>
+            <ul class="navi_link">
+                <li><a href="./about.html">About Me</a></li>
+                <li><a href="./projects.html">Projects</a></li>
+                <!-- <li><a href="./certificates.html">Certificates</a></li> -->
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger_nav">
+        <div class="logo">Saurabh Sarate</div>
+        <div class="hamburger_menu">
+            <div class="hamburger_icon" onclick="toggle()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menul">
+                <li><a href="./about.html" onclick="toggle()">About Me</a></li>
+                <li><a href="./projects.html" onclick="toggle()">Projects</a></li>
+               <!----<li><a href="./certificates.html" onclick="toggle()">Certificates</a></li>  -->
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="sec_pic_container">
+            <img src="./Resources/pp.jpg" alt="Saurabh Sarate profile pic" id="SSS">
+        </div>
+        <div class="sec_text">
+            <p class="sec_p">Hello Everyone!!!</p>
+            <h1 class="title">I'm Saurabh Sarate</h1>
+            <p class="sec_p1">Technical Specialist in Computer Engineering</p>
+            <div class="btn_cont">
+                <button class="btn btn_color" onclick="window.open('./Resources/SSS CV.pdf')">Download cv</button>
+                <a class="btn btn_color1" href="mailto:saurabhsarate357@gmail.com">Contact Me</a>
+                <!--<button class="btn btn_color1" onclick="location.href='mailto:saurabhsarate357@gmail.com'">Contact Me</button>-->
+            </div>
+            <div id="social_cont">
+                <img src="./Resources/linkedin.png" alt="MY Linkdin Profile" class="icon" onclick="location.href='https://www.linkedin.com/mwlite/in/saurabh-sarate-6507a5230'"/>
+                <img src="./Resources/github.png" alt="MY Github Profile" class="icon" onclick="location.href='https://github.com/Saurabhsarate/'"/>
+                <img src="./Resources/insta.png" alt="MY Instagram Profile" class="icon" onclick="location.href='https://www.instagram.com/saurabhsarate.01/?igsh=M2Y5NWEyb2d6MjFk'"/>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <p class="sec_p">Want to Reach me out!!!</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact_info_cont_up">
+            <div class="contact_info_cont">
+                <img src="./Resources/email.png" alt="email icon" class="icon contact_icon"/>
+                <p><a href="mailto:saurabhsarate357@gmail.com">saurabhsarate357@gmail.com</a></p>
+            </div>
+            <div class="contact_info_cont">
+                <img src="./Resources/phone_num.png" alt="email icon" class="icon contact_icon"/>
+                <p id="b">7030460972</p>
+            </div>
+        </div>
+        
+
+    </section>
+    <footer>
+        <nav>
+            <div class="navi_link_cont">
+                <ul class="navi_link">
+                    <li><a href="./about.html">About Me</a></li>
+                    <li><a href="./projects.html">Projects</a></li>
+                    <!-- <li><a href="./certificates.html">Certificates</a></li>-->
+                </ul>
+            </div>
+        </nav>
+        <p id="b">copyright &#169; 2024 Saurabh Sarate</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html> 
